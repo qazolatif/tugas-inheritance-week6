@@ -6,13 +6,13 @@ namespace TugasInheritance
 	{
 		static void Main(string[] args)
 		{
-			Person person = new Person("Mike", 20);
+			Person person = new Person("Khias", 21);
 			person.GetInformation();
 			
-			Teacher teacher = new Teacher("Thomas", 35, "190302", "Math");
+			Teacher teacher = new Teacher("Ari", 33, "190302", "Math");
 			teacher.GetInformation();
 			
-			Student student = new Student("Sara", 19, "10506", "sara1234@amikom.ac.id");
+			Student student = new Student("Khias Nurlatif Ari Subekti", 23, "105067", "khias.subekti@students.amikom.ac.id");
 			student.GetInformation();
 			
 			Console.ReadKey();
